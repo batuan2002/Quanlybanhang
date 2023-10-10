@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" minWidth="833.0" prefHeight="563.999977929685" prefWidth="833.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <BorderPane layoutX="0.0" layoutY="0.0" minHeight="412.0" minWidth="833.0" prefHeight="564.0" prefWidth="833.0">
+      <center>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+      </center>
+      <left>
+        <AnchorPane prefHeight="472.0" prefWidth="833.0000999999975" style="-fx-background-color: #FFFFCC;">
+          <children>
+            <AnchorPane layoutX="0.0" layoutY="-3.0" minHeight="343.0" minWidth="158.99990000000253" prefHeight="477.0000999999975" prefWidth="159.0">
+              <children>
+                <ImageView id="background_soft_light_texture-635909.jpg" fitHeight="477.9999694824219" fitWidth="164.0" layoutX="-5.0" layoutY="2.0" style="-fx-background-color: #49B2C0;">
+                  <image>
+                    <Image url="@../../IMG/IMG%20Background-Top-Admin/IMG%20Background-left/background_soft_light_texture-635909.jpg" preserveRatio="true" smooth="true" />
+                  </image>
+                </ImageView>
+                <Button fx:id="account" layoutX="-5.0" layoutY="0.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="164.0" style="-fx-background-color: &#9;#FFCCCC" text="Account">
+                  <textFill>
+                    <Color blue="0.000" green="0.600" red="0.192" fx:id="x2" />
+                  </textFill>
+                </Button>
+                <Button fx:id="addaccount" alignment="BASELINE_CENTER" layoutX="-5.0" layoutY="64.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="164.0" style="-fx-background-color: &#9;#FFCCCC" text="Add Account" textFill="$x2">
+                  <font>
+                    <Font size="15.0" />
+                  </font>
+                </Button>
+                <Button fx:id="student" alignment="BASELINE_CENTER" layoutX="-5.0" layoutY="144.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="164.0" style="-fx-background-color: &#9;#FFCCCC" text="Student" textFill="$x2" />
+                <Button fx:id="dashboard" alignment="BASELINE_CENTER" layoutX="-5.0" layoutY="223.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="164.0" style="-fx-background-color: &#9;#FFCCCC" text="DashBoard" textFill="$x2" />
+                <Button fx:id="score" alignment="BASELINE_CENTER" layoutX="-5.0" layoutY="300.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="164.0" style="-fx-background-color: &#9;#FFCCCC" text="Score Of Subjects" textFill="$x2" />
+                <Button fx:id="signout" alignment="BASELINE_CENTER" layoutX="-5.0" layoutY="414.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="164.0" style="-fx-background-color:   &#9;#FFCCCC" text="Sign Out" textFill="$x2" />
+              </children>
+            </AnchorPane>
+            <TableView layoutX="159.0" layoutY="0.0" prefHeight="425.0" prefWidth="674.0">
+              <columns>
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="58.0" style="-fx-background-color: #FFFFCC;" text="ID" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="174.0" style="-fx-background-color: #FFFFCC;" text="Name" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="70.0" style="-fx-background-color: #FFFFCC;" text="Gender" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="117.0" style="-fx-background-color: #FFFFCC;" text="Birthday" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="78.0" style="-fx-background-color: #FFFFCC;" text="Class" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="176.0" style="-fx-background-color: #FFFFCC;" text="Phone" />
+              </columns>
+            </TableView>
+            <Button fx:id="editstudent" contentDisplay="CENTER" layoutX="699.0" layoutY="435.0" mnemonicParsing="false" style="-fx-background-color: #CCFF99" text="Edit Student" />
+          </children>
+        </AnchorPane>
+      </left>
+      <top>
+        <AnchorPane minWidth="833.0" prefHeight="90.0" prefWidth="833.0">
+          <children>
+            <ImageView id="pngtree-blue-colour-background-image_314361.jpg" fitHeight="90.0" fitWidth="838.0" layoutX="-5.0" layoutY="0.0">
+              <image>
+                <Image url="@../../IMG/IMG%20Background-Top-Admin/pngtree-blue-colour-background-image_314361.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <Label layoutX="286.0" layoutY="25.0" text="Management Interface For Admin" textFill="#cc0000">
+              <font>
+                <Font size="30.0" />
+              </font>
+            </Label>
+            <ImageView id="307417.png" fitHeight="75.0" fitWidth="105.0" layoutX="-2.0" layoutY="8.0">
+              <image>
+                <Image url="@../../IMG/IMG%20Background-Top-Admin/307417.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <Label layoutX="128.0" layoutY="15.0" text="ADMIN" textFill="#cc3100">
+              <font>
+                <Font name="System Bold" size="15.0" />
+              </font>
+            </Label>
+            <Label fx:id="nameadmin" alignment="CENTER" contentDisplay="CENTER" layoutX="94.0" layoutY="46.0" prefWidth="136.0" text="Name Admin" textAlignment="CENTER" wrapText="false" />
+          </children>
+        </AnchorPane>
+      </top>
+    </BorderPane>
+  </children>
+</AnchorPane>
